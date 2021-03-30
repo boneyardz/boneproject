@@ -1,0 +1,36 @@
+body{
+  background-color:grey;
+  color:green;
+}
+h1{
+  color:red;
+  text-align:center;
+}
+{
+  text-align:center;
+}
+main{
+  background-color:white;
+  max-width:400px;
+  margin:0 auto;
+}
+header{
+  background-image:url("images/skully2.jpg");
+  background-repeat:no-repeat;
+  height:70px;
+  background-position:center;
+  }
+nav{
+  background-color:black;
+  padding:3px;
+}
+nav a{
+  color:white;
+}
+section{
+  padding:10px;
+}
+footer{
+  background-color:white;
+  text-align:right;
+}
