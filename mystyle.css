@@ -27,10 +27,11 @@ nav{
 nav a{
   color:white;
 }
-form input{
+form div{
   background-image:url("images/ArmBone.png");
-  width:100px;
+  width:200px;
   height:50px;
+  background-size:cover;
 }
 section{
   padding:10px;
