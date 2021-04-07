@@ -6,9 +6,6 @@ h1{
   color:red;
   text-align:center;
 }
-{
-  text-align:center;
-}
 main{
   background-color:white;
   max-width:400px;
@@ -17,7 +14,7 @@ main{
 header{
   background-image:url("images/skully2.jpg");
   background-repeat:no-repeat;
-  height:70px;
+  height:100px;
   background-position:center;
   }
 nav{
