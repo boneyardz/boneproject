@@ -27,6 +27,7 @@ nav a{
 form{
   width:150px;
   margin:0 auto;
+  margin-top:20%;
 }
 form input{
   background-image:url("images/ArmBone.png");
@@ -36,6 +37,9 @@ form input{
   text-align:center;
   border:none;
   padding:0;
+}
+form input:last-child{
+  margin-top:20%;
 }
 section{
   padding:10px;
