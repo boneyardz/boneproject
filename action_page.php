@@ -10,7 +10,10 @@
         This is the landing page!
       </p>
       <?php
-        echo("<h2>Hello world</h2>");
+        $name=$_GET['name'];
+        echo("<p>Your name is $name</p>");
+        $key=$_GET['key'];
+        echo("<p>Room Key is $key</p>");
       ?>
     </main>
   </body>
