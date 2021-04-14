@@ -1,11 +1,4 @@
-<html lang="en">
-  <head>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
-  </head>
-  <body>
-    <main><!-- this is our container -->
-      <header>
-      </header>
+<?php include("includes/page_top.php"); ?>
       <p>
         This is the landing page!
       </p>
@@ -15,6 +8,4 @@
         $key=$_GET['key'];
         echo("<p>Room Key is $key</p>");
       ?>
-    </main>
-  </body>
-</html>
+<?php include("includes/page_bottom.php"); ?>

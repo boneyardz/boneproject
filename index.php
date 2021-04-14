@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
-  </head>
-  <body>
-    <main><!-- this is our container -->
-      <header>
-      </header>
+<?php include("includes/page_top.php"); ?>
       <form action="action_page.php">
         <!-- label for="key">Room Key:</label -->
         <input type="text" id="key" name="key" placeholder="Room Key">
@@ -15,6 +6,4 @@
         <input type="text" id="name" name="name" placeholder="Your Name">
         <input type="submit" value="Enter">
       </form>
-    </main>
-  </body>
-</html>
+<?php include("includes/page_bottom.php"); ?>
