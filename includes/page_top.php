@@ -7,5 +7,4 @@
   </head>
   <body>
     <main><!-- this is our container -->
-      <header>
-      </header>
+      <header></header><!-- header brings in the skull graphic -->
