@@ -6,6 +6,6 @@
         $name=$_GET['name'];
         echo("<p>Your name is $name</p>");
         $key=$_GET['key'];
-        echo("<p>Room Key is $key</p>");
+        echo("<p>Room Key is $key</p>\n");
       ?>
 <?php include("includes/page_bottom.php"); ?>
