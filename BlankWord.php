@@ -1,7 +1,9 @@
 <?php include("includes/page_top.php");
   $word="";
   $list[]="";
-  filehandle=fopen("resources/blank_word.txt","r");
+  $filehandle=fopen("resources/blank_word.txt","r");
+  while($row=fgetscv($filehandle)) $list[]=$row;
+  fclose($filehandle);
 ?>
 <h3>BlankWord</h3>
 <form action="fred.php">
