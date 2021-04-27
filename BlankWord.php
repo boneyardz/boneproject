@@ -1,4 +1,5 @@
 <?php include("includes/page_top.php");
+error_reporting(E_ALL);
   $word="";
   $list[]="";
   $filehandle=fopen("resources/blank_word.txt","r");
@@ -7,6 +8,7 @@
   //$list[]=$row;
   }
   fclose($filehandle);
+  print_r($list);
 ?>
 <h3>BlankWord</h3>
 <form action="fred.php">
