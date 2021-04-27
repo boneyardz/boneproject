@@ -1,17 +1,18 @@
-<?php include("includes/page_top.php");
-error_reporting(E_ALL);
+<?php
+  error_reporting(E_ALL);
+  include("includes/page_top.php");
   $word="";
   $list[]="";
   $filehandle=fopen("resources/blank_word.txt","r");
   while($row=fgetcsv($filehandle))
   {
-  $list[]=$row[0];
+    $list[]=$row[0];
   }
   fclose($filehandle);
-  print_r($list);
-  echo(count($list));
-  echo(rand(1,count($list)-1));
-  $word=$list[rand(1,count($list)-1)];
+  //print_r($list);
+  //echo(count($list));
+  //echo(rand(1,count($list)-1));
+  $word=$list[random_int(1,count($list)-1)];
 ?>
 <h3>BlankWord</h3>
 <form action="fred.php">
