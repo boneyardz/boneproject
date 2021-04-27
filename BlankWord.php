@@ -5,10 +5,13 @@ error_reporting(E_ALL);
   $filehandle=fopen("resources/blank_word.txt","r");
   while($row=fgetcsv($filehandle))
   {
-  //$list[]=$row;
+  $list[]=$row[0];
   }
   fclose($filehandle);
   print_r($list);
+  echo(count($list));
+  echo(rand(1,count($list)-1));
+  $word=$list[rand(1,count($list)-1)];
 ?>
 <h3>BlankWord</h3>
 <form action="fred.php">
