@@ -30,10 +30,10 @@
 	<?php
 	  switch($choice){
     case 1:
-      echo("<label for='answer'>____ $word</label>\n");
+      echo("<label for='answer'>______ $word</label>\n");
       break;
     case 2:
-      echo("<label for='answer'>$word ____</label>\n");
+      echo("<label for='answer'>$word ______</label>\n");
       break;
       default:
         $word="oops";
