@@ -6,7 +6,7 @@
   $filehandle=fopen("resources/blank_word.txt","r");
   while($row=fgetcsv($filehandle))
   {
-    $list[]=$row[0];
+    //$list[]=$row[0];
   }
   fclose($filehandle);
   //print_r($list);
