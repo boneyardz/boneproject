@@ -35,9 +35,10 @@ form input{
   height:78px;
   background-size:cover;
   text-align:center;
+  color:green;
   border:none;
   padding:0;
-}
+}//ADDED LINE 38 TO TIE IN COLOUR SCHEME
 form input:last-child{
   margin-top:20%;
 }

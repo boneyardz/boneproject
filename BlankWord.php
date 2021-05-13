@@ -25,7 +25,7 @@
         $word="oops";
 	}
 ?>
-<h3>BlankWord</h3>
+<h3 style="text-align:center;">BlankWord</h3>
 <form action="fred.php">
 	<?php
 	  switch($choice){
